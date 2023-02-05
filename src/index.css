@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+
+:root {
+  @apply text-[16px]
+}
+
+@media (max-width:640px) {
+  :root {
+    @apply text-[12px]
+  }
+}
+
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border
+}
+
+.body {
+  @apply w-screen h-screen bg-black
+}
+
+
+
+/*  background: linear-gradient(135deg, #69f, #f36); */
