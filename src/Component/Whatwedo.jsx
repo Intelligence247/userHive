@@ -25,7 +25,6 @@ const Whatwedo = () => {
             img: '/media/menu.svg',
             title: 'Build customer empathy',
             desc: 'Empathy with your customers doesn\'t happen in a day. Our work creates an ever-deepening understanding of your customers within your product teams. We produce artefacts that your teams will refer to and share again and again.',
-
         },
     ]
     return (
@@ -39,6 +38,7 @@ const Whatwedo = () => {
                     />
 
                 ))}
+
 
         </div>
     )

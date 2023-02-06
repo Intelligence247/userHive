@@ -34,7 +34,14 @@
 }
 
 span {
-  background: linear-gradient(135deg, #69f, #f36);
+  background-image: linear-gradient(135deg, #69f, #f36);
   background-clip: text;
   color: transparent;
+  animation: filter 2s infinite linear;
+}
+
+@keyframes filter {
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }

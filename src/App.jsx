@@ -21,7 +21,6 @@ function App() {
       <section className='text-white lg:text-[4rem] text-[3rem] bg-black h-40  w-[100%] flex gap-2 justify-center'>Let's get <Textclip text={'moving'} />. </section>
       <div className="sizeswrapper"></div>
       <Small />
-
       <Footer />
     </div>
   )
