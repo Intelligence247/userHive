@@ -40,6 +40,23 @@ span {
   animation: filter 2s infinite linear;
 }
 
+
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: linear-gradient(135deg, #69f, #f36);
+
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: indigo; */
+  background-color: indigo;
+  border-radius: 50px;
+}
+
+
 @keyframes filter {
   100% {
     filter: hue-rotate(360deg);
