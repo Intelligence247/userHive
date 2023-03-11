@@ -30,8 +30,9 @@ const Whatwedo = () => {
     return (
         <div className="wrapper flex gap-8 mt-10 px-8 flex-col lg:flex-row bg-[#131415] py-20 w-[100%]">
             {
-                objectArr.map((obj) => (
+                objectArr.map((obj,i) => (
                     <Whatwedostructure
+                        key={i}
                         img={obj.img}
                         title={obj.title}
                         desc={obj.desc}

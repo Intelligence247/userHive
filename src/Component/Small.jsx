@@ -32,8 +32,9 @@ const Small = () => {
 
     return (
         <div className="smallwrapper flex bg-[#131415] gap-8 px-8 mx-2 py-6 flex-col lg:flex-row">
-            {smallArr.map((s) => (
+            {smallArr.map((s,i) => (
                 <Smallstructure
+                    key={i}
                     title={s.title}
                     desc={s.desc}
                     desc2={s.desc2}

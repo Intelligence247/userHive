@@ -11,7 +11,7 @@
   }
 }
 
-@tailwind utilities;
+
 
 * {
   @apply p-0 m-0 box-border text-white
@@ -51,7 +51,6 @@ span {
 }
 
 ::-webkit-scrollbar-thumb {
-  /* background-color: indigo; */
   background-color: indigo;
   border-radius: 50px;
 }
@@ -62,3 +61,5 @@ span {
     filter: hue-rotate(360deg);
   }
 }
+
+@tailwind utilities;
